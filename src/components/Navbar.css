@@ -1,4 +1,17 @@
 .navbar {
   display: flex;
-  border: 2px solid red;
+
+  justify-content: space-between;
+  background-color: black;
+}
+
+.navbar-title {
+  color: white;
+  font-size: larger;
+  font-weight: 800;
+}
+
+input {
+  margin: 10px;
+  text-align: left;
 }

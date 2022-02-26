@@ -1,0 +1,16 @@
+.hero-list {
+  display: grid;
+  width: 60%;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.hero-card {
+  border: 3px solid black;
+}
+
+.hero-card:hover img {
+  transform: scale(1.1);
+}
