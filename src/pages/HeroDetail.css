@@ -1,0 +1,24 @@
+.header {
+  background-color: rgb(51, 49, 49);
+  display: flex;
+  padding: 20px auto;
+}
+
+.header p,
+h1 {
+  color: white;
+}
+
+.hero-header h1 {
+  color: white;
+}
+
+.hero-header {
+  flex: 1;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.hero-desc {
+  flex: 3;
+}

@@ -1,17 +1,11 @@
 .navbar {
-  display: flex;
-
-  justify-content: space-between;
-  background-color: black;
+  width: 100%;
+  background: #effaf0;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  background-color: rgb(112, 8, 8);
 }
 
-.navbar-title {
+.brand {
   color: white;
-  font-size: larger;
-  font-weight: 800;
-}
-
-input {
-  margin: 10px;
-  text-align: left;
 }

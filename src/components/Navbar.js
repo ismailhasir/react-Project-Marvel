@@ -1,12 +1,12 @@
-import { Link } from "react-router-dom";
+import { Router, Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <h3 className="navbar-title">Marvel App </h3>
-
-      <input type="text" placeholder="Search here..."></input>
+      <nav>
+        <h1 className="brand">Marvel App</h1>
+      </nav>
     </div>
   );
 };

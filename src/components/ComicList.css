@@ -1,0 +1,31 @@
+h1 {
+  color: black;
+}
+
+.comic-list {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.comic-list-right {
+  margin-left: 10px;
+  color: rgb(68, 62, 62);
+}
+
+.characterDetail__content {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  margin: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border: 2px solid #000;
+  box-shadow: 0 6px 6px -6px #000;
+}
