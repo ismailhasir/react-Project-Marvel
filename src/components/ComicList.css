@@ -19,7 +19,7 @@ h1 {
   max-width: 1200px;
   width: 100%;
   padding: 20px;
-  margin: 20px 50px;
+  margin: 60px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;

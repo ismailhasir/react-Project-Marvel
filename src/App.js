@@ -29,8 +29,8 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route exact path="/" element={<Home heroes={heroes} />} />
         </Routes>
